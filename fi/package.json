@@ -1,8 +1,0 @@
-{
-  "name": "war-thunder-command-dashboard",
-  "version": "1.0.0",
-  "description": "War Thunder-inspired vehicle management dashboard using Express and SQLite",
-  "main": "server.js",
-  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
-  "dependencies": { "better-sqlite3": "^11.8.1", "express": "^4.21.2" }
-}
