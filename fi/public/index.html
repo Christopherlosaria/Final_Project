@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>War Thunder | Command Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand"><div class="brand-mark">WT</div><div><strong>WAR THUNDER</strong><small>COMMAND CENTER</small></div></div>
+    <div class="nav-label">COMMAND</div>
+    <a class="nav active" href="index.html"><span>▦</span> Overview</a>
+    <a class="nav" href="hangar.html"><span>▤</span> Vehicle Hangar</a>
+    <div class="sidebar-bottom"><div class="status-dot"></div><span>LOCAL DATABASE ONLINE</span><small>PERSONAL FLEET MANAGER</small></div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar"><div><div class="eyebrow">OPERATIONS / PERSONNEL DATABASE</div><h1>COMMAND DASHBOARD</h1></div><div class="top-right"><span class="live"><i></i> SYSTEM ONLINE</span><span id="today"></span></div></header>
+    <section>
+      <div class="welcome"><div><div class="eyebrow">WELCOME, COMMANDER</div><h2>Your command center.</h2><p>Review your registered fleet and manage your War Thunder vehicle collection.</p></div><a class="primary button-link" href="hangar.html">OPEN VEHICLE HANGAR →</a></div>
+      <div class="stats">
+        <article class="stat-card"><div class="stat-head">TOTAL VEHICLES <span>▤</span></div><strong id="total">—</strong><small>REGISTERED IN HANGAR</small></article>
+        <article class="stat-card"><div class="stat-head">GROUND FORCES <span>◈</span></div><strong id="ground">—</strong><small>LAND VEHICLES</small></article>
+        <article class="stat-card"><div class="stat-head">AVIATION <span>✈</span></div><strong id="aircraft">—</strong><small>AIRCRAFT</small></article>
+        <article class="stat-card"><div class="stat-head">NAVAL FORCES <span>⚓</span></div><strong id="naval">—</strong><small>VESSELS</small></article>
+      </div>
+      <div class="section-heading"><div><div class="eyebrow">QUICK ACCESS</div><h2>COMMAND SECTIONS</h2></div></div>
+      <div class="quick-grid">
+        <a class="quick-card" href="hangar.html"><div class="quick-icon">▤</div><div><h3>VEHICLE HANGAR</h3><p>View, add, edit, search, and delete vehicles in your collection.</p><span>MANAGE VEHICLES →</span></div></a>
+        <div class="quick-card info-card"><div class="quick-icon">◎</div><div><h3>FLEET OVERVIEW</h3><p>Your vehicle counts are calculated automatically from your local SQLite database.</p><span>DATABASE CONNECTED</span></div></div>
+      </div>
+      <div class="footer-note">UNOFFICIAL FAN-MADE DASHBOARD · NOT AFFILIATED WITH GAIJIN ENTERTAINMENT OR WAR THUNDER</div>
+    </section>
+  </main>
+  <script src="dashboard.js"></script>
+</body></html>
